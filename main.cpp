@@ -43,6 +43,8 @@ void search()
     else
     {
         cout << "No IP found." << endl;
+        sleep_for(seconds(2));
+        search();
     }
 
     myStream.close();
