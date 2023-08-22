@@ -1,0 +1,13 @@
+t=2023-08-22T14:21:50-0400 lvl=info msg="no configuration paths supplied"
+t=2023-08-22T14:21:50-0400 lvl=info msg="using configuration at default config path" path=C:\\Users\\ksart\\AppData\\Local/ngrok/ngrok.yml
+t=2023-08-22T14:21:50-0400 lvl=info msg="open config file" path=C:\\Users\\ksart\\AppData\\Local\\ngrok\\ngrok.yml err=nil
+t=2023-08-22T14:21:50-0400 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2023-08-22T14:21:50-0400 lvl=info msg="client session established" obj=tunnels.session obj=csess id=76d4846cca9c
+t=2023-08-22T14:21:50-0400 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2023-08-22T14:21:50-0400 lvl=info msg="update available" obj=updater
+t=2023-08-22T14:21:50-0400 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=//localhost:25565 url=tcp://6.tcp.ngrok.io:10168
+t=2023-08-22T14:21:52-0400 lvl=info msg=start pg=/grpc/agent.Web/State id=0d067026e6bdcf04
+t=2023-08-22T14:21:59-0400 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2023-08-22T14:21:59-0400 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2023-08-22T14:21:59-0400 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=76d4846cca9c err="reconnecting session closed"
+t=2023-08-22T14:21:59-0400 lvl=info msg="no more state changes" obj=tunnels.session
