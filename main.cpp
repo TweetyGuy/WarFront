@@ -2,17 +2,22 @@
 #include <fstream>
 #include <string>
 #include <thread>
+#include <chrono>
 
 using namespace std;
+using namespace std::this_thread;
+using namespace std::chrono;
 
 string logfile;
 string trueLine;
 
 void tunnelNgrok()
 {
-    // Run ngrok in the background and detach
-    system("ngrok tcp 25565 --log=stdout > log.txt &");
 
+    // Run ngrok in the background and detach
+    std::cout << "Creating ngrok session. . .\n";
+    system("ngrok tcp 25565 --log=stdout > log.txt &");
+    std::cout << "Created ngrok session.\n";
 }
 
 void search()
